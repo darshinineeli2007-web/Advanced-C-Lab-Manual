@@ -14,20 +14,28 @@ Algorithm:
 Program:
 
 #include <stdio.h>
+
 int max_of_four(int a, int b, int c, int d) {
     int max = a;
+
     if (b > max) max = b;
     if (c > max) max = c;
     if (d > max) max = d;
-   return max;
+
+    return max;
 }
+
 int main() {
     int n1, n2, n3, n4, greater;
-printf("Enter four numbers: ");
+
+    printf("Enter four numbers: ");
     scanf("%d %d %d %d", &n1, &n2, &n3, &n4);
-greater = max_of_four(n1, n2, n3, n4);
- printf("Greatest number = %d\n", greater);
-return 0;
+
+    greater = max_of_four(n1, n2, n3, n4);
+
+    printf("Greatest number = %d\n", greater);
+
+    return 0;
 }
 
 Output:
