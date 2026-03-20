@@ -9,7 +9,7 @@ Algorithm:
 4.	Main Function (or Other Relevant Code)
 5.	Initialize the stack and top as needed.
 6.	Perform stack operations (push, pop, etc.).
-7.	Use the display function to visualize the stack's contents
+7.	Use the display function to visualize the stack's contents 
  
 Program:
 ```
