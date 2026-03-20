@@ -12,7 +12,7 @@ Algorithm:
 7.	Use the display function to visualize the stack's contents
  
 Program:
-
+```
 #include <stdio.h>
 
 #define MAX 5
@@ -38,7 +38,7 @@ int main() {
 
     return 0;
 }
-
+```
 Output:
 
 <img width="1835" height="573" alt="image" src="https://github.com/user-attachments/assets/53d3a6ad-8386-4685-a328-3a2777298b92" />
@@ -60,6 +60,7 @@ Algorithm:
 4.	Call the push function as needed.
  
 Program:
+```
 #include <stdio.h>
 
 #define MAX 5
@@ -82,6 +83,7 @@ int main() {
 
     return 0;
 }
+```
 Output:
 <img width="1802" height="557" alt="image" src="https://github.com/user-attachments/assets/8e71e180-50f6-48e5-ae83-6d90d2776d68" />
 
@@ -105,6 +107,7 @@ Algorithm:
 4.	Call the display function and perform other queue operations as needed.
  
 Program:
+```
 #include <stdio.h>
 
 #define MAX 5
@@ -126,7 +129,7 @@ int main() {
 
     return 0;
 }
-
+```
 Output:
 
 <img width="1847" height="502" alt="image" src="https://github.com/user-attachments/assets/dfe52847-2e8a-404e-b342-388c30999556" />
@@ -149,7 +152,7 @@ Algorithm:
 4.	Call the enqueue function as needed.
 
 Program:
-
+```
 #include <stdio.h>
 
 #define MAX 5
@@ -173,7 +176,7 @@ int main() {
 
     return 0;
 }
-
+```
 Output:
 
 <img width="1902" height="532" alt="image" src="https://github.com/user-attachments/assets/5d7e1729-1991-4cbf-9111-9c06555f0bfe" />
@@ -207,6 +210,7 @@ o	After deletion, check if the front pointer has passed the rear pointer (front 
 
 
 Program:
+```
 #include <stdio.h>
 int queue[MAX];
 int front = 0, rear = 2;
@@ -234,7 +238,7 @@ int main() {
 
     return 0;
 }
-
+```
 Output:
 
 <img width="1856" height="603" alt="image" src="https://github.com/user-attachments/assets/2e09bc22-07f9-499e-9292-bad5086d211d" />
