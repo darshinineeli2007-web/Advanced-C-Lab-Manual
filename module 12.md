@@ -43,7 +43,7 @@ void display() {
 int main() {
     struct Node *temp;
 
-    // Creating stack manually
+  
     temp = (struct Node*)malloc(sizeof(struct Node));
     temp->data = 10;
     temp->next = head;
