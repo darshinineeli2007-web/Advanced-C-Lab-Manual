@@ -16,7 +16,7 @@ Else
  
 Program:
 
-
+```
 #include <stdio.h>
 
 struct eligible {
@@ -39,6 +39,7 @@ int main() {
 
     return 0;
 }
+```
 Output:
 
 <img width="758" height="418" alt="image" src="https://github.com/user-attachments/assets/5c68ba73-c925-46da-9e1a-a026cbb58af2" />
@@ -65,6 +66,7 @@ Algorithm:
 7.	Return 0
  
 Program:
+```
 #include <stdio.h>
 
 struct numbers {
@@ -87,7 +89,7 @@ int main() {
 
     return 0;
 }
-
+```
 Output:
 
 <img width="362" height="303" alt="image" src="https://github.com/user-attachments/assets/18b68350-b5c5-46cc-80f4-d170d51d0473" />
@@ -125,6 +127,7 @@ Use scanf to input the file name into the name array.
 5.	Return 0 to indicate successful program execution.
  
 Program:
+```
 #include <stdio.h>
 
 int main() {
@@ -147,7 +150,7 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 
@@ -182,6 +185,7 @@ Use scanf to input the file name into the name array and the number of strings i
 5.	Return 0 to indicate successful program execution.
  
 Program:
+```
 #include <stdio.h>
 
 int main() {
@@ -208,7 +212,7 @@ int main() {
 
     return 0;
 }
-
+```
 
 
 
@@ -263,7 +267,7 @@ Algorithm:
 13.End the program by returning 0.
 
 Program:
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -298,7 +302,7 @@ int main() {
 
     return 0;
 }
-
+```
 
 
 
