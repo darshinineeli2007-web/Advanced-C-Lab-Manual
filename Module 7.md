@@ -19,22 +19,14 @@ Program:
 
 #include <stdio.h>
 
-
-
 struct eligible {
     int age;
     char n[50];
 };
 
 int main() {
-    
-    
     struct eligible e;
-    
-    
     scanf("%s", e.n);
-    
-    
     scanf("%d", &e.age);
 
     if (e.age <= 6) {
@@ -47,8 +39,6 @@ int main() {
 
     return 0;
 }
-
-
 Output:
 
 <img width="758" height="418" alt="image" src="https://github.com/user-attachments/assets/5c68ba73-c925-46da-9e1a-a026cbb58af2" />
