@@ -17,7 +17,6 @@ Else
 Program:
 
 
-
 #include <stdio.h>
 
 struct eligible {
@@ -26,23 +25,26 @@ struct eligible {
 };
 
 int main() {
-    
     struct eligible e;
     scanf("%s", e.n);
     scanf("%d", &e.age);
+
     if (e.age <= 6) {
         printf("Vaccine Eligibility: No\n");
     } else {
         printf("Vaccine Eligibility: Yes\n");
+        printf("Name: %s\n", e.n);
+        printf("Age: %d\n", e.age);
     }
 
-printf("Name: %s\nAge: %d\n", e.n, e.age);
+    return 0;
+}
 
-return 0;
 
 Output:
 
-<img width="1777" height="853" alt="image" src="https://github.com/user-attachments/assets/850ff37a-3e62-4c48-933e-644e3e9c7b1e" />
+<img width="758" height="418" alt="image" src="https://github.com/user-attachments/assets/5c68ba73-c925-46da-9e1a-a026cbb58af2" />
+
 
 Result:
 
