@@ -15,13 +15,11 @@ Else
 6.	Return 0
  
 Program:
-
 #include <stdio.h>
 struct eligible {
     int age;
     char n[50];
 };
-
 int main() {
     struct eligible e;
     scanf("%s", e.n);
@@ -33,15 +31,8 @@ int main() {
     }
 printf("Name: %s\nAge: %d\n", e.n, e.age);
 return 0;
-}
-
-
 Output:
-
 <img width="1777" height="853" alt="image" src="https://github.com/user-attachments/assets/850ff37a-3e62-4c48-933e-644e3e9c7b1e" />
-
-
-
 Result:
 Thus, the program is verified successfully. 
 
