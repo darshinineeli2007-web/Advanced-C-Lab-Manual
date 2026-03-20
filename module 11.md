@@ -12,7 +12,7 @@ Algorithm:
 5.	Call the max_of_four function with the input integers and store the result in the greater variable
  
 Program:
-
+```
 #include <stdio.h>
 
 int max_of_four(int a, int b, int c, int d) {
@@ -37,7 +37,7 @@ int main() {
 
     return 0;
 }
-
+```
 Output:
 <img width="542" height="287" alt="image" src="https://github.com/user-attachments/assets/ca939844-d78e-4c62-8987-2da37f60fa45" />
 
@@ -61,6 +61,7 @@ Algorithm:
 7.	Call the calculate_the_max function with input values.
  
 Program:
+```
 #include <stdio.h>
 
 void calculate_the_max(int n, int k) {
@@ -94,7 +95,7 @@ int main() {
 
     return 0;
 }
-
+```
 Output:
 <img width="342" height="352" alt="image" src="https://github.com/user-attachments/assets/599c98f8-b51a-4731-af0b-5bee19247238" />
 
@@ -117,6 +118,7 @@ Algorithm:
 5.	Use a for loop to iterate over the queries.
  
 Program:
+```
 #include <stdio.h>
 
 int main() {
@@ -148,7 +150,7 @@ int main() {
 
     return 0;
 }
-
+```
 Output:
 <img width="323" height="397" alt="image" src="https://github.com/user-attachments/assets/ba260959-f7f3-437c-a3c3-b216fc5bf1e5" />
 
@@ -175,6 +177,7 @@ Algorithm:
 
 
 Program:
+```
 #include <stdio.h>
 
 int main() {
@@ -195,7 +198,7 @@ int main() {
 
     return 0;
 }
-
+```
 Output:
 <img width="402" height="377" alt="image" src="https://github.com/user-attachments/assets/e34eb1a7-0599-4d07-ae2b-e9dad21b329b" />
 
@@ -229,6 +232,7 @@ o	If a character is not a space, it may belong to a word. If it's the first non-
 
 
 Program:
+```
 #include <stdio.h>
 #include <string.h>
 
@@ -250,7 +254,7 @@ int main() {
 
     return 0;
 }
-
+```
 Output:
 <img width="417" height="375" alt="image" src="https://github.com/user-attachments/assets/3b624817-acc0-466b-a6ef-6c431c3deb03" />
 
