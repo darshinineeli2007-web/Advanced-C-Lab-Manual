@@ -17,7 +17,9 @@ Else
 Program:
 
 
+
 #include <stdio.h>
+
 struct eligible {
     int age;
     char n[50];
