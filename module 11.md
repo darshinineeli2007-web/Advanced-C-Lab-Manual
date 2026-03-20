@@ -12,10 +12,34 @@ Algorithm:
 5.	Call the max_of_four function with the input integers and store the result in the greater variable
  
 Program:
-//type your code here
+#include <stdio.h>
+
+int max_of_four(int a, int b, int c, int d) {
+    int max = a;
+
+    if (b > max) max = b;
+    if (c > max) max = c;
+    if (d > max) max = d;
+
+    return max;
+}
+
+int main() {
+    int n1, n2, n3, n4, greater;
+
+    printf("Enter four numbers: ");
+    scanf("%d %d %d %d", &n1, &n2, &n3, &n4);
+
+    greater = max_of_four(n1, n2, n3, n4);
+
+    printf("Greatest number = %d\n", greater);
+
+    return 0;
+}
 
 Output:
-//paste your output here
+<img width="542" height="287" alt="image" src="https://github.com/user-attachments/assets/ca939844-d78e-4c62-8987-2da37f60fa45" />
+
 
 Result:
 Thus, the program  that create a function to find the greatest number is verified successfully.
@@ -36,10 +60,43 @@ Algorithm:
 7.	Call the calculate_the_max function with input values.
  
 Program:
-//type your code here
+#include <stdio.h>
+
+void calculate_the_max(int n, int k) {
+    int max_and = 0, max_or = 0, max_xor = 0;
+
+    for (int i = 1; i <= n; i++) {
+        for (int j = i + 1; j <= n; j++) {
+            if ((i & j) < k && (i & j) > max_and)
+                max_and = i & j;
+
+            if ((i | j) < k && (i | j) > max_or)
+                max_or = i | j;
+
+            if ((i ^ j) < k && (i ^ j) > max_xor)
+                max_xor = i ^ j;
+        }
+    }
+
+    printf("Max AND = %d\n", max_and);
+    printf("Max OR = %d\n", max_or);
+    printf("Max XOR = %d\n", max_xor);
+}
+
+int main() {
+    int n, k;
+
+    printf("Enter n and k: ");
+    scanf("%d %d", &n, &k);
+
+    calculate_the_max(n, k);
+
+    return 0;
+}
 
 Output:
-//paste your output here
+<img width="342" height="352" alt="image" src="https://github.com/user-attachments/assets/599c98f8-b51a-4731-af0b-5bee19247238" />
+
 
 Result:
 Thus, the program to print the maximum values for the AND, OR and XOR comparisons
@@ -59,10 +116,41 @@ Algorithm:
 5.	Use a for loop to iterate over the queries.
  
 Program:
-//type your code here
+#include <stdio.h>
+
+int main() {
+    int noshel, noque;
+    scanf("%d %d", &noshel, &noque);
+
+    int shelarr[100][100] = {0};
+    int nobookarr[100] = {0};
+
+    for (int i = 0; i < noque; i++) {
+        int type;
+        scanf("%d", &type);
+
+        if (type == 1) {
+            int x, y;
+            scanf("%d %d", &x, &y);
+            shelarr[x][nobookarr[x]] = y;
+            nobookarr[x]++;
+        } else if (type == 2) {
+            int x, y;
+            scanf("%d %d", &x, &y);
+            printf("%d\n", shelarr[x][y]);
+        } else if (type == 3) {
+            int x;
+            scanf("%d", &x);
+            printf("%d\n", nobookarr[x]);
+        }
+    }
+
+    return 0;
+}
 
 Output:
-//paste your output here
+<img width="323" height="397" alt="image" src="https://github.com/user-attachments/assets/ba260959-f7f3-437c-a3c3-b216fc5bf1e5" />
+
 
 
 Result:
@@ -86,10 +174,30 @@ Algorithm:
 
 
 Program:
-//type your code here
+#include <stdio.h>
+
+int main() {
+    int n, sum = 0;
+
+    
+    scanf("%d", &n);
+
+    int a[n];
+
+    
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &a[i]);
+        sum += a[i];
+    }
+
+    printf("Sum = %d\n", sum);
+
+    return 0;
+}
 
 Output:
-//paste your output here
+<img width="402" height="377" alt="image" src="https://github.com/user-attachments/assets/e34eb1a7-0599-4d07-ae2b-e9dad21b329b" />
+
 
  
 
@@ -120,10 +228,31 @@ o	If a character is not a space, it may belong to a word. If it's the first non-
 
 
 Program:
-//type your code here
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char str[200];
+    int count = 0;
+
+   
+    fgets(str, sizeof(str), stdin);
+
+    for (int i = 0; str[i] != '\0'; i++) {
+        if ((i == 0 && str[i] != ' ') || 
+            (str[i] != ' ' && str[i-1] == ' ')) {
+            count++;
+        }
+    }
+
+    printf("Number of words = %d\n", count);
+
+    return 0;
+}
 
 Output:
-//paste your output here
+<img width="417" height="375" alt="image" src="https://github.com/user-attachments/assets/3b624817-acc0-466b-a6ef-6c431c3deb03" />
+
 
 
 
