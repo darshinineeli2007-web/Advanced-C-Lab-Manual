@@ -27,8 +27,14 @@ struct eligible {
 };
 
 int main() {
+    
+    
     struct eligible e;
+    
+    
     scanf("%s", e.n);
+    
+    
     scanf("%d", &e.age);
 
     if (e.age <= 6) {
