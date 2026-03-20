@@ -14,7 +14,7 @@ Algorithm:
 7.	Move to the next node using the next pointer.
  
 Program:
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -63,7 +63,7 @@ int main() {
 
     return 0;
 }
-
+```
 Output:
 
 <img width="698" height="471" alt="image" src="https://github.com/user-attachments/assets/204d7e35-e297-4158-a438-ea1699aa112b" />
@@ -87,7 +87,7 @@ Algorithm:
 4.	Set head to point to the next node in the stack.
  
 Program:
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -127,7 +127,7 @@ int main() {
 
     return 0;
 }
-
+```
 Output:
 
 <img width="562" height="392" alt="image" src="https://github.com/user-attachments/assets/c0acadfa-205f-4a1d-bcad-034853bab1d8" />
@@ -150,7 +150,7 @@ Algorithm:
 5.	End the display function.
  
 Program:
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -194,7 +194,7 @@ int main() {
 
     return 0;
 }
-
+```
 Output:
 
 <img width="537" height="327" alt="image" src="https://github.com/user-attachments/assets/8f46160e-5df3-48a9-9093-c4e0cb6e559b" />
@@ -219,7 +219,7 @@ Algorithm:
 6.	End of Enqueue Operation
  
 Program:
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -252,7 +252,7 @@ int main() {
 
     return 0;
 }
-
+```
 Output:
 
 <img width="408" height="332" alt="image" src="https://github.com/user-attachments/assets/c7f1eccf-80f8-4133-8e12-bcb067007ccb" />
@@ -278,7 +278,7 @@ o	If the queue is empty (i.e., the front pointer is NULL), return an error or a 
 o	If the queue is not empty, return the data stored in the front node of the linked list (i.e., the element at the head of the queue).
 
 Program:
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -315,7 +315,7 @@ int main() {
 
     return 0;
 }
-
+```
 Output:
 
 <img width="567" height="323" alt="image" src="https://github.com/user-attachments/assets/54a32ab6-d1c9-49e3-8a6f-464b1e04cd4a" />
