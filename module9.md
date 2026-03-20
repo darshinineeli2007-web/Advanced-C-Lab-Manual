@@ -12,12 +12,39 @@ Algorithm:
 7.	Use the display function to visualize the stack's contents
  
 Program:
+```
+#include <stdio.h>
 
-//type your code here
+#define MAX 5
+
+int stack[MAX], top = -1;
+
+void display() {
+    if (top == -1) {
+        printf("Stack is empty\n");
+    } else {
+        printf("Stack elements are:\n");
+        for (int i = top; i >= 0; i--) {
+            printf("%d\n", stack[i]);
+        }
+    }
+}
+
+int main() {
+    // Sample push operations
+    stack[++top] = 10;
+    stack[++top] = 20;
+    stack[++top] = 30;
+
+    display();
+
+    return 0;
+}
+```
 
 Output:
+<img width="548" height="582" alt="image" src="https://github.com/user-attachments/assets/cd3431eb-5e25-413d-a8a3-cf0199adcb22" />
 
-//paste your output here
 
 
 
