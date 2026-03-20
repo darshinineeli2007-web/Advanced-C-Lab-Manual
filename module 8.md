@@ -15,7 +15,7 @@ Algorithm:
 4.	Exit the program.
  
 Program:
-
+```
 #include <stdio.h>
 
 int main() {
@@ -38,7 +38,7 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 Output:
@@ -68,6 +68,7 @@ Algorithm:
 6.	End
  
 Program:
+```
 #include <stdio.h>
 #include <string.h>
 
@@ -89,7 +90,7 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 Output:
@@ -125,7 +126,7 @@ Free the memory allocated for each string in s Free the memory allocated for s
 7.	End
  
 Program:
-
+```
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -165,7 +166,7 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 Output:
@@ -196,7 +197,7 @@ Algorithm:
 7.	End
  
 Program:
-
+```
 #include <stdio.h>
 
 int main() {
@@ -220,7 +221,7 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 Output:
@@ -258,7 +259,7 @@ o	Call the square() function and display the result.
 5.	End.
 
 Program:
-
+```
 #include <stdio.h>
 
 int square() {
@@ -274,7 +275,7 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 Output:
